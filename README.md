@@ -1,40 +1,45 @@
-# 🩺 Aarogya Saathi
+# Aarogya Saathi in Progress Still
+*Aarogya Saathi* is an AI-powered voice-first healthcare assistant designed for rural India. It bridges the healthcare gap by providing vital medical guidance via basic feature phones (through IVR) and a lightweight Android app that functions offline and supports multiple Indian languages.
 
-**Aarogya Saathi** is an AI-powered rural healthcare assistant designed to empower frontline health workers and underserved communities in India. It works through voice calls on basic feature phones and a lightweight Android app that runs offline and supports multiple Indian languages.
+## 💡 Problem Statement
+Millions in rural India lack access to timely healthcare due to poor infrastructure, limited internet, and digital illiteracy. Aarogya Saathi aims to empower ASHA workers and rural individuals with an accessible AI tool for pregnancy risk assessment, disease guidance, and awareness about government health schemes.
 
-## 🌟 Key Features
+## 🚀 Features
+- Voice-based interaction in Hindi and regional languages.
+- Pregnancy risk assessment through guided Q&A.
+- Health scheme information in a simple tile layout.
+- Offline-first app with auto-sync for ASHA dashboards.
+- Works on both feature phones (via IVR) and smartphones.
 
-- Voice-guided high-risk pregnancy assessment
-- AI-based health symptom checker in regional languages
-- Health scheme education through simple visual tiles
-- Offline-first mobile app with auto sync
-- ASHA worker dashboard for patient tracking
-- Smart caching of critical health data
+## 🧠 AI & Tech Stack
+- **Frontend**: Android (Kotlin/Java), Jetpack Compose (optional)
+- **Backend**: Node.js / Python (Flask)
+- **Database**: Firebase / SQLite (for offline-first design)
+- **AI/ML**: Keras, TensorFlow Lite, Hugging Face Transformers, ONNX
+- **NLP**: spaCy, BERT multilingual, Whisper (for speech-to-text)
+- **Voice**: Coqui TTS / Mozilla TTS, OpenAI Whisper ASR
+- **IVR**: Asterisk, Twilio
+- **Cloud & Infra**: AWS (EC2, S3, Lambda), Docker, GitHub Actions
+- **Other Tools**: LangChain (for chaining prompts), Streamlit (for internal dashboards), Android Room
 
-## 🔧 Tech Stack
+## 🧪 Dataset Sources
+- **Anemia & pregnancy risk data**: Sample data from [National Family Health Survey (NFHS-5)](http://rchiips.org/nfhs/)
+- **Disease classification**: WHO and ICMR datasets
+- **Scheme Info**: Data scraped/compiled from [National Health Portal](https://www.nhp.gov.in/)
 
-- **Frontend:** Android (Kotlin)
-- **Backend:** Python, Flask
-- **AI/NLP:** TensorFlow Lite, ONNX, Hugging Face Transformers
-- **Voice & IVR:** Twilio, Asterisk
-- **Cloud:** AWS (Lambda, S3, DynamoDB)
-- **Database:** SQLite (offline), DynamoDB (sync)
+## 📲 App Screens (Infographic)
+<p align="center">
+  <img src="screenshots/home.png" width="200"/>
+  <img src="screenshots/pregnancy-assessment.png" width="200"/>
+  <img src="screenshots/schemes.png" width="200"/>
+  <img src="screenshots/sync-dashboard.png" width="200"/>
+</p>
 
-## 📦 Open-Source Tools Used
+## 📈 Impact
+- Reduce maternal and infant mortality rates.
+- Empower frontline workers with AI-backed decisions.
+- Create a scalable, inclusive, offline-friendly healthtech ecosystem.
 
-- Hugging Face Transformers
-- TensorFlow Lite
-- ONNX Runtime
-- Asterisk
-- Flask
-
-## 🚀 Why Aarogya Saathi?
-
-Unlike most health tech solutions that require smartphones and internet, Aarogya Saathi focuses on inclusivity with:
-- **Voice-first interface**
-- **Offline support**
-- **Multi-language AI**
-- **No digital literacy required**
 
 ## 📜 License
 
