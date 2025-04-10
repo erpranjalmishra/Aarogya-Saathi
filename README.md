@@ -1,6 +1,13 @@
 # Aarogya-Saathi 💊  
 **Empowering Rural Healthcare with AI – Boosted by Intel® oneAPI**
 
+---
+
+> Built with ❤️ by student innovators for real-world rural impact.
+
+an team v Project
+
+
 Aarogya-Saathi is a smart, AI-powered rural health support system that provides intelligent diagnostics and health risk analysis using user-friendly local interfaces. It aims to assist healthcare workers and individuals in rural areas by providing reliable, low-resource, real-time health evaluations even in the absence of doctors.
 
 > 🚀 Built by me, Pranjal Mishra, with some help from Intel® oneAPI tools and accelerators for optimized performance across diverse hardware.
@@ -83,8 +90,3 @@ python app.py
 
 MIT License
 
----
-
-> Built with ❤️ by student innovators for real-world rural impact.
-
-an team v Project
