@@ -1,92 +1,16 @@
-# Aarogya-Saathi 💊  
-**Empowering Rural Healthcare with AI – Boosted by Intel® oneAPI**
+# aarogya_saathi
 
----
+A new Flutter project.
 
-> Built with ❤️ by student innovators for real-world rural impact.
+## Getting Started
 
-an team v Project
+This project is a starting point for a Flutter application.
 
+A few resources to get you started if this is your first Flutter project:
 
-Aarogya-Saathi is a smart, AI-powered rural health support system that provides intelligent diagnostics and health risk analysis using user-friendly local interfaces. It aims to assist healthcare workers and individuals in rural areas by providing reliable, low-resource, real-time health evaluations even in the absence of doctors.
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-> 🚀 Built by me, Pranjal Mishra, with some help from Intel® oneAPI tools and accelerators for optimized performance across diverse hardware.
-
----
-
-## 🔧 Features
-
-- ✅ **AI-Powered Symptom Checker**  
-  Predict diseases based on symptoms using a trained machine learning model.
-
-- 🌐 **Multilingual Support (Hindi + English)**  
-  Making tech accessible to native speakers in India.
-
-- 🧠 **Intel®-Accelerated ML**  
-  Leveraging Intel® oneAPI Data Analytics Library (oneDAL) and oneAPI AI tools to speed up model training & inference.
-
-- 📱 **Simple UI/UX**  
-  Designed for use by community health workers with minimal technical background.
-
-- 📊 **Health Risk Prediction**  
-  Uses real health datasets to assess risks and provide preventive advice.
-
----
-
-## 💡 Tech Stack
-
-| Layer              | Tech Used                                    |
-|-------------------|----------------------------------------------|
-| Backend AI Model  | Python, scikit-learn, Intel® oneDAL          |
-| Web Framework     | Flask + HTML/CSS                             |
-| Deployment        | Localhost (can be hosted on edge devices)    |
-| Hardware Optimized| Intel® CPUs, Intel® Integrated Graphics       |
-
----
-
-## 🚀 Intel® oneAPI Integration
-
-Using Intel® oneAPI, I was able to:
-
-- Train models faster using **Intel® Distribution for Python** and **oneDAL**.
-- Improve parallel performance on Intel hardware.
-- Optimize inference latency for use on low-power devices.
-
----
-
-## 🧪 How It Works
-
-1. **User Inputs Symptoms** (Hindi/English).
-2. **ML Model** matches symptoms to probable diseases.
-3. **Output**: Probable diagnosis + Suggestions.
-4. **(Optional)** Send report to local health center.
-
----
-
-## 📸 Screenshots
-
-| Symptom Input (Hindi) | Prediction Result |
-|-----------------------|-------------------|
-| ![input](screenshots/input.png) | ![output](screenshots/output.png) |
-
----
-
-## 🛠️ Getting Started
-
-### Prerequisites:
-- Python 3.8+
-- pip
-- Intel® oneAPI Base Toolkit (for optimization - optional but recommended)
-
-### Installation:
-
-```bash
-git clone https://github.com/erpranjalmishra/Aarogya-Saathi
-cd Aarogya-Saathi
-pip install -r requirements.txt
-python app.py
-
-## 📜 License
-
-MIT License
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
